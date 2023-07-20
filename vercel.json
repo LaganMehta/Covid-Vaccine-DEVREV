@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "covid-vaccine-devrev",
+    "builds": [
+      { "src": "script.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/app.js" }
+    ]
+  }
+  
