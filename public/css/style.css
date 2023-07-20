@@ -1,0 +1,113 @@
+.navbar-dark {
+    /* background: linear-gradient(0.18turn,rgb(1, 10, 90),rgb(2, 12, 141),rgb(2, 6, 209),rgb(6, 3, 199),rgb(2, 5, 196),rgb(4, 19, 226),rgb(2, 81, 172),rgb(15, 2, 202),rgb(13, 3, 102)); */
+    background: #232301;
+}
+.navbar a:hover{
+  text-align:center;
+  border-bottom :3px solid whitesmoke;
+}
+.logo{
+  padding-right:10px;
+}
+
+#admin-login-div {
+  max-width: 450px; 
+  float: right; 
+  padding: 2%;
+  background: #d6e8f5;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: #d6e8f5;
+  background: #d6e8f5;
+  width: 20%;
+  padding: 2% 1%;
+  font-size:large;
+  min-height: 30vh;
+}
+.sidebar .nav-link {
+  margin: 2% 0;
+  border: black 1px solid;
+}
+
+#home {
+  height: 400px;
+  width: 100%;
+  background-color: #e3f1eb;
+  /* background-color: #ffffff; */
+  padding: 100px 0 0;
+}
+
+.main-text h1 {
+margin-top: 20px;
+font-family: 'Nanum Myeongjo', serif;
+color: #615509;
+}
+
+
+.img1 :focus{
+  outline:none;
+  border:0;
+  border-radius:30%;
+}
+
+.main-img {
+  height:250px;
+  width: 250px;
+  border-radius: 20px;
+  margin-top:30px;
+  margin-bottom:10px;
+  border-color:black;
+}
+
+#work{
+  background-color: #d6e8f5;
+}
+#work h1{
+  text-align:center;
+
+}
+.card-title{
+  text-align:center;
+}
+
+
+
+/* //footer */
+footer {
+  background-color: #4e4800;
+  text-align: left;
+}
+
+.site-footer
+{
+  background-color: #222831;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links a
+{
+  color:#959595
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+

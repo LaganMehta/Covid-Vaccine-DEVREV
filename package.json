@@ -1,0 +1,23 @@
+{
+  "name": "devrev_task",
+  "version": "1.0.0",
+  "description": "Covid Vaccination",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "hbs": "^4.1.1",
+    "jquery": "^3.6.3",
+    "pdfkit": "^0.11.0",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Covid19"
+  ],
+  "author": "Sarthak Arora",
+  "license": "ISC"
+}
